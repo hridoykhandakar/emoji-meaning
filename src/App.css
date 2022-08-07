@@ -1,0 +1,69 @@
+.main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  min-height: calc(100vh - 100px);
+  background: #b6cbcb;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header {
+  background: rgb(0, 194, 253);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+/* ======================================= */
+
+.dictionary {
+  height: 300px;
+  width: 300px;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 50px 30px;
+  border-radius: 10px;
+}
+.term {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.term dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.emoji {
+  display: grid;
+  place-items: center;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.e-img {
+  width: 100%;
+  transform: scale(3);
+}
+
+/* ======================================= */
+
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background: rgba(128, 128, 128, 0.525);
+  text-align: center;
+}
